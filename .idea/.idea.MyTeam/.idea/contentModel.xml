@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.aspnetcdn.com_ajax_jquery.validate_1.17.0_jquery.validate.js" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.aspnetcdn.com_ajax_jquery.validation.unobtrusive_3.2.9_jquery.validate.unobtrusive.js" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_MyTeam.-969156502.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Areas" t="Include">
+        <e p="Identity" t="Include">
+          <e p="Data" t="Include">
+            <e p="MyTeamIdentityDbContext.cs" t="Include" />
+            <e p="MyTeamUser.cs" t="Include" />
+          </e>
+          <e p="Pages" t="Include">
+            <e p="Account" t="Include">
+              <e p="Login.cshtml" t="Include" />
+              <e p="Login.cshtml.cs" t="Include" />
+              <e p="Manage" t="Include">
+                <e p="Index.cshtml" t="Include" />
+                <e p="Index.cshtml.cs" t="Include" />
+                <e p="ManageNavPages.cs" t="Include" />
+                <e p="_ManageNav.cshtml" t="Include" />
+                <e p="_ViewImports.cshtml" t="Include" />
+              </e>
+              <e p="Register.cshtml" t="Include" />
+              <e p="Register.cshtml.cs" t="Include" />
+              <e p="_ViewImports.cshtml" t="Include" />
+            </e>
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="_ViewImports.cshtml" t="Include" />
+            <e p="_ViewStart.cshtml" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="HomeController.cs" t="Include" />
+        <e p="MatchesController.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20191026124305_CreateIdentitySchema.Designer.cs" t="Include" />
+        <e p="20191026124305_CreateIdentitySchema.cs" t="Include" />
+        <e p="20191026164132_AddedCustomIdentity.Designer.cs" t="Include" />
+        <e p="20191026164132_AddedCustomIdentity.cs" t="Include" />
+        <e p="MyTeamIdentityDbContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Competition.cs" t="Include" />
+        <e p="ErrorViewModel.cs" t="Include" />
+        <e p="Match.cs" t="Include" />
+        <e p="MyTeamDbContext.cs" t="Include" />
+        <e p="Player.cs" t="Include" />
+        <e p="Standings.cs" t="Include" />
+        <e p="TableItem.cs" t="Include" />
+        <e p="Team.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="MyTeam.csproj" t="IncludeRecursive" />
+      <e p="MyTeam.sln" t="IncludeFlat" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="ScaffoldingReadme.txt" t="Include" />
+      <e p="Startup.cs" t="Include" />
+      <e p="ViewModels" t="Include">
+        <e p="MatchesViewModel.cs" t="Include" />
+        <e p="TeamViewModel.cs" t="Include" />
+      </e>
+      <e p="Views" t="Include">
+        <e p="Home" t="Include">
+          <e p="Index.cshtml" t="Include" />
+          <e p="Privacy.cshtml" t="Include" />
+          <e p="UserTeam.cshtml" t="Include" />
+        </e>
+        <e p="Matches" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="Error.cshtml" t="Include" />
+          <e p="_CookieConsentPartial.cshtml" t="Include" />
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="_LoginPartial.cshtml" t="Include" />
+          <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+        </e>
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+      </e>
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="MyTeam.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="wwwroot" t="Include">
+        <e p="css" t="Include">
+          <e p="site.css" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="js" t="Include">
+          <e p="site.js" t="Include" />
+        </e>
+        <e p="lib" t="Include">
+          <e p="DataTables-1.10.20" t="Include">
+            <e p="css" t="Include">
+              <e p="dataTables.bootstrap.css" t="Include" />
+              <e p="dataTables.bootstrap.min.css" t="Include" />
+              <e p="dataTables.bootstrap4.css" t="Include" />
+              <e p="dataTables.bootstrap4.min.css" t="Include" />
+              <e p="dataTables.foundation.css" t="Include" />
+              <e p="dataTables.foundation.min.css" t="Include" />
+              <e p="dataTables.jqueryui.css" t="Include" />
+              <e p="dataTables.jqueryui.min.css" t="Include" />
+              <e p="dataTables.semanticui.css" t="Include" />
+              <e p="dataTables.semanticui.min.css" t="Include" />
+              <e p="jquery.dataTables.css" t="Include" />
+              <e p="jquery.dataTables.min.css" t="Include" />
+            </e>
+            <e p="images" t="Include">
+              <e p="sort_asc.png" t="Include" />
+              <e p="sort_asc_disabled.png" t="Include" />
+              <e p="sort_both.png" t="Include" />
+              <e p="sort_desc.png" t="Include" />
+              <e p="sort_desc_disabled.png" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="dataTables.bootstrap.js" t="Include" />
+              <e p="dataTables.bootstrap.min.js" t="Include" />
+              <e p="dataTables.bootstrap4.js" t="Include" />
+              <e p="dataTables.bootstrap4.min.js" t="Include" />
+              <e p="dataTables.foundation.js" t="Include" />
+              <e p="dataTables.foundation.min.js" t="Include" />
+              <e p="dataTables.jqueryui.js" t="Include" />
+              <e p="dataTables.jqueryui.min.js" t="Include" />
+              <e p="dataTables.semanticui.js" t="Include" />
+              <e p="dataTables.semanticui.min.js" t="Include" />
+              <e p="jquery.dataTables.js" t="Include" />
+              <e p="jquery.dataTables.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="bootstrap" t="Include">
+            <e p="LICENSE" t="Include" />
+            <e p="dist" t="Include">
+              <e p="css" t="Include">
+                <e p="bootstrap-grid.css" t="Include" />
+                <e p="bootstrap-grid.css.map" t="Include" />
+                <e p="bootstrap-grid.min.css" t="Include" />
+                <e p="bootstrap-grid.min.css.map" t="Include" />
+                <e p="bootstrap-reboot.css" t="Include" />
+                <e p="bootstrap-reboot.css.map" t="Include" />
+                <e p="bootstrap-reboot.min.css" t="Include" />
+                <e p="bootstrap-reboot.min.css.map" t="Include" />
+                <e p="bootstrap.css" t="Include" />
+                <e p="bootstrap.css.map" t="Include" />
+                <e p="bootstrap.min.css" t="Include" />
+                <e p="bootstrap.min.css.map" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p="bootstrap.bundle.js" t="Include" />
+                <e p="bootstrap.bundle.js.map" t="Include" />
+                <e p="bootstrap.bundle.min.js" t="Include" />
+                <e p="bootstrap.bundle.min.js.map" t="Include" />
+                <e p="bootstrap.js" t="Include" />
+                <e p="bootstrap.js.map" t="Include" />
+                <e p="bootstrap.min.js" t="Include" />
+                <e p="bootstrap.min.js.map" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="jquery" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+            <e p="dist" t="Include">
+              <e p="jquery.js" t="Include" />
+              <e p="jquery.min.js" t="Include" />
+              <e p="jquery.min.map" t="Include" />
+            </e>
+          </e>
+          <e p="jquery-validation" t="Include">
+            <e p="LICENSE.md" t="Include" />
+            <e p="dist" t="Include">
+              <e p="additional-methods.js" t="Include" />
+              <e p="additional-methods.min.js" t="Include" />
+              <e p="jquery.validate.js" t="Include" />
+              <e p="jquery.validate.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="jquery-validation-unobtrusive" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+            <e p="jquery.validate.unobtrusive.js" t="Include" />
+            <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
