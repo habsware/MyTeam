@@ -419,8 +419,6 @@
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/MyTeam.TagHelpers.output.cache
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/MyTeam.RazorCoreGenerate.cache
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
-/home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
-/home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/Matches/Index.cshtml.g.cs
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
@@ -435,7 +433,6 @@
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/MyTeam.dll
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/MyTeam.pdb
 /home/habs/RiderProjects/MyTeam/bin/Debug/netcoreapp3.0/Microsoft.AspNet.Identity.Core.dll
-/home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/Home/UserTeam.cshtml.g.cs
 /home/habs/RiderProjects/MyTeam/bin/Debug/netcoreapp3.0/Microsoft.Data.SqlClient.dll
 /home/habs/RiderProjects/MyTeam/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /home/habs/RiderProjects/MyTeam/bin/Debug/netcoreapp3.0/Microsoft.Identity.Client.dll
@@ -456,3 +453,7 @@
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/Account/Manage/Index.cshtml.g.cs
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml.g.cs
 /home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml.g.cs
+/home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/OverView/Index.cshtml.g.cs
+/home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/Squad/Index.cshtml.g.cs
+/home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/OverView/TopScorer.cshtml.g.cs
+/home/habs/RiderProjects/MyTeam/obj/Debug/netcoreapp3.0/Razor/Views/OverView/SelectedTeam.cshtml.g.cs

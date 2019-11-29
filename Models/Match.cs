@@ -14,8 +14,18 @@ namespace MyTeam.Models
         public Team AwayTeam { get; set; }
         public DateTime UtcDate { get; set; }
         public DateTime LastUpdated { get; set; }
+        public Score Score { get; set; }
         public Competition Competition  { get; set; }
         public int CompetitionId  { get; set; }
         
+    }
+    public class Score
+    {
+        public FullTime FullTime { get; set; }
+    }
+    public class FullTime
+    {
+        public int? HomeTeam { get; set; }
+        public int? AwayTeam { get; set; }
     }
 }

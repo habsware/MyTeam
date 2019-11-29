@@ -1,8 +1,79 @@
-@model object
+@model MyTeam.ViewModels.SelectedTeamViewModel
 
 @{
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
 
-<h2>title</h2>
+<h3 style="color: darkgoldenrod"><img src="@Model.Team.CrestUrl" alt="" style="width: 30px;height: 30px"/> @Model.Team.Name's Latest Matches</h3>
+ <table class="table" style="width:100%">
+     <tbody>
+            @foreach (var match in Model.TeamMatches.Matches)
+            {
+                <tr>
+                    <td>
+                        <h3>
+                            <span class="badge badge-pill 
+                                @(match.Score.FullTime.HomeTeam > match.Score.FullTime.AwayTeam ? "badge-success" 
+                                        : match.Score.FullTime.HomeTeam < match.Score.FullTime.AwayTeam ? "badge-danger" 
+                                                : "badge-dark")">@match.Score.FullTime.HomeTeam
+                            </span>
+                        </h3>
+                    </td>
+                    <td>
+                        <h3><span class="badge badge-pill badge-light">@match.HomeTeam.Name</span></h3>
+                    </td>
+                    <td>
+                        <h3><span class="badge badge-pill badge-primary">VS</span></h3>
+                    </td>
+                    <td>
+                          <h3><span class="badge badge-pill badge-light">@match.AwayTeam.Name</span></h3>
+                    </td>
+                    <td>
+                        <h3>
+                            <span class="badge badge-pill 
+                                @(match.Score.FullTime.AwayTeam > match.Score.FullTime.HomeTeam ? "badge-success" 
+                                    : match.Score.FullTime.AwayTeam < match.Score.FullTime.HomeTeam ? "badge-danger" 
+                                        : "badge-dark")">@match.Score.FullTime.AwayTeam
+                            </span>
+                        </h3>
+                    </td>
+                </tr>
+            }
+        </tbody>
+ </table>
+
+<h3 style="color: darkgoldenrod"><img src="@Model.Team.CrestUrl" alt="" style="width: 30px;height: 30px"/> @Model.Team.Name's Squad</h3>
+<table id="ItemsTable" class="table table-striped" style="width:100%">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Nationality</th>
+        <th>Birth Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var player in Model.Team.Squad)
+    {
+        <tr>
+            <td>@player.Name</td>
+            <td>@player.Position</td>
+            <td>@player.Nationality</td>
+            <td>@player.DateOfBirth.ToString("yyyy MM dd dddd")</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+             $('#ItemsTable').DataTable({
+                "searching": false,
+                "info": false
+             });
+         });
+    </script>
+}

@@ -42,7 +42,11 @@
             },
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",
-              "version": "[2.2.2, )"
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -64,17 +68,13 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -86,7 +86,7 @@
             },
             "bootstrap": {
               "target": "Package",
-              "version": "[4.3.1, )"
+              "version": "[4.4.0, )"
             },
             "jquery.datatables": {
               "target": "Package",

@@ -1,7 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e33df74-e74e-457d-950e-9c10cc6fb6e4" name="Default Changelist" comment="" />
+    <list default="true" id="9e33df74-e74e-457d-950e-9c10cc6fb6e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/MyTeamController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/SquadController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/CompetitionStandings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/News.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/ScorerStandings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Season.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/ScorerViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/SelectedTeamViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/OverView/SelectedTeam.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/OverView/TopScorer.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Squad/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/ROADMAP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/bird_blue_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-module.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-zombie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/owl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/twitter_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/animate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/autoheight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/autoplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/autowidth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/demos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/lazyLoad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/merge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/mousewheel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/stagepadding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/urlhashnav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/api-classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/api-events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/api-options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-buildin-plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-external.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-plugin-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-styles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/started-faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/started-installation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/started-welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/support-changelog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/support-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/support-contributing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/bird_blue_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-module.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-zombie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/owl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/twitter_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/_settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/events.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/features.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/helpers/modulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/helpers/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/layouts/demos.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/layouts/docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/layouts/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/animate.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoheight.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoplay.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autowidth.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/basic.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/center.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/demos.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/events.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/lazyLoad.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/merge.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/mousewheel.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/responsive.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/rtl.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/stagepadding.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/test.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/urlhashnav.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/video.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-classes.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-events.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-options.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-external.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-plugin-api.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-styles.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-faq.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-installation.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-welcome.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-changelog.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contact.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contributing.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/head.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-carousel.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-features.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-hero.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-teaser-text.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/javascripts.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/releated-docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/sidenav-docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/title.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/vendors.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/img/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.autoheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.autorefresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.support.modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_autoheight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_lazyload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_theme.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_theme.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/owl.carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/owl.theme.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/src/scss/owl.theme.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/test/unit/autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/lib/OwlCarousel2-2.3.4/test/unit/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/550abd4e-35d6-423b-86ff-aa56ee0746dc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/550abd4e-35d6-423b-86ff-aa56ee0746dc/storage_v2/_src_/database/MyTeamIdentityDb.BZEd7g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/550abd4e-35d6-423b-86ff-aa56ee0746dc/storage_v2/_src_/database/MyTeamIdentityDb.BZEd7g/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/550abd4e-35d6-423b-86ff-aa56ee0746dc/storage_v2/_src_/database/MyTeamIdentityDb.BZEd7g/schema/dbo.sYMBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/550abd4e-35d6-423b-86ff-aa56ee0746dc/storage_v2/_src_/database/MyTeamIdentityDb.BZEd7g/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/6d0e0a81-f94d-46b3-83d0-e307d756304d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/9e1c604c-1ab8-44cb-9979-1156790f70dd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/9e1c604c-1ab8-44cb-9979-1156790f70dd/storage_v2/_src_/database/MyTeamIdentity.J3binA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/9e1c604c-1ab8-44cb-9979-1156790f70dd/storage_v2/_src_/database/MyTeamIdentity.J3binA/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/9e1c604c-1ab8-44cb-9979-1156790f70dd/storage_v2/_src_/database/MyTeamIdentity.J3binA/schema/dbo.sYMBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/9e1c604c-1ab8-44cb-9979-1156790f70dd/storage_v2/_src_/database/MyTeamIdentity.J3binA/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/e6049093-62c1-4c22-8293-c484a7908ddc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/e6049093-62c1-4c22-8293-c484a7908ddc/storage_v2/_src_/database/master.YiqNvw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/e6049093-62c1-4c22-8293-c484a7908ddc/storage_v2/_src_/database/master.YiqNvw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/e6049093-62c1-4c22-8293-c484a7908ddc/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/e6049093-62c1-4c22-8293-c484a7908ddc/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/dataSources/e6049093-62c1-4c22-8293-c484a7908ddc/storage_v2/_src_/database/master.YiqNvw/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyTeam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyTeam/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyTeam/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Data/MyTeamUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Data/MyTeamUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/OverViewController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/MatchesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/MatchesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191026124305_CreateIdentitySchema.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191026124305_CreateIdentitySchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191026164132_AddedCustomIdentity.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191026164132_AddedCustomIdentity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/MyTeamIdentityDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Competition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Competition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Match.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Match.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/MyTeamDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/MyTeamDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Standings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Standings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TableItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Team.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyTeam.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyTeam.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyTeam.csproj.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MyTeam.csproj.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/MatchesViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/MatchesViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/TeamViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/OverViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/OverView/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/UserTeam.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Matches/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Matches/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/MyTeam.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/MyTeam.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/Account/Manage/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/Account/Manage/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Home/UserTeam.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Matches/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Matches/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/MyTeam.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/MyTeam.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/MyTeam.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/MyTeam.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/MyTeam.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/MyTeam.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,110 +306,143 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MyTeamIdentityDb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="MyTeamIdentity.db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MyTeamIdentityDb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="MyTeamIdentityDb: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="MyTeamIdentity.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MyTeamIdentityDb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="MyTeamIdentityDb: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MyTeamIdentityDb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="MyTeamIdentityDb: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="AspNetUsers: table" type="63ab2ba1:MsImplModel$Table" />
+        <item name="MyTeamIdentity.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MyTeam" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Models/ScorerStandings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/SquadController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/CompetitionStandings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/News.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Season.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/SelectedTeamViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/OverView/TopScorer.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/OverView/SelectedTeam.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/OverViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/MatchesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/MyTeamController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Data/MyTeamIdentityDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/MatchesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Data/MyTeamUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/OverViewController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Squad/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/OverView/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Data/MyTeamUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Data/MyTeamIdentityDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Competition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/MyTeamIdentityDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/20191026124305_CreateIdentitySchema.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/MyTeamDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/20191026124305_CreateIdentitySchema.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/MatchesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ViewModels/MatchesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ScorerViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Matches/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB980B5A-EB80-4990-8E69-3A769CAEDD0B/27/e5a48fc8/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ViewModels/TeamViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/Home/UserTeam.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/20191026164132_AddedCustomIdentity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB980B5A-EB80-4990-8E69-3A769CAEDD0B/4c/0db04ae9/IdentityUser`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TableItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Standings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Match.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/MyTeamDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Competition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Team.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6d0e0a81-f94d-46b3-83d0-e307d756304d/console.sql" />
-        <option value="$PROJECT_DIR$/Views/Shared/Error.cshtml" />
-        <option value="$PROJECT_DIR$/Models/Competition.cs" />
-        <option value="$PROJECT_DIR$/Models/FootyDbContext.cs" />
-        <option value="$PROJECT_DIR$/ViewModels/MatchesViewModel.cs" />
-        <option value="$PROJECT_DIR$/Pages/Matches/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Views/Matches/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Models/MyTeamDbContext.cs" />
-        <option value="$PROJECT_DIR$/ViewModels/TeamViewModel.cs" />
-        <option value="$PROJECT_DIR$/Controllers/MatchesController.cs" />
-        <option value="6d0e0a81-f94d-46b3-83d0-e307d756304d/schema/main/table/AspNetUsers.sql" />
-        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/Views/Home/UserTeam.cshtml" />
-        <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Data/Migrations/00000000000000_CreateIdentitySchema.cs" />
-        <option value="$PROJECT_DIR$/Data/Migrations/ApplicationDbContextModelSnapshot.cs" />
-        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB980B5A-EB80-4990-8E69-3A769CAEDD0B/4c/0db04ae9/IdentityUser`1.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Data/ApplicationDbContext.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/IdentityHostingStartup.cs" />
-        <option value="$PROJECT_DIR$/Migrations/MyTeamIdentityDbContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/Migrations/20191026124305_CreateIdentitySchema.Designer.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Data/MyTeamUser.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" />
         <option value="$PROJECT_DIR$/Migrations/20191026162339_AddedCustomIdentity.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Data/MyTeamIdentityDbContext.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" />
-        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Pages/MyTeam/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ViewModels/TeamViewModel.cs" />
+        <option value="$PROJECT_DIR$/Models/CompetitionStandigs.cs" />
+        <option value="$PROJECT_DIR$/Models/CompetitionStandings.cs" />
+        <option value="$PROJECT_DIR$/Models/New.cs" />
+        <option value="$PROJECT_DIR$/Models/Team.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Models/Competition.cs" />
+        <option value="$PROJECT_DIR$/Models/MyTeamDbContext.cs" />
+        <option value="$PROJECT_DIR$/Models/Standings.cs" />
+        <option value="$PROJECT_DIR$/Models/NewsObject.cs" />
+        <option value="$PROJECT_DIR$/ViewModels/OverViewModel.cs" />
+        <option value="$PROJECT_DIR$/Models/News.cs" />
+        <option value="$PROJECT_DIR$/Models/TableItem.cs" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" />
+        <option value="$PROJECT_DIR$/Views/OverView/UserTeam.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Data/MyTeamUser.cs" />
+        <option value="$PROJECT_DIR$/ViewModels/MatchesViewModel.cs" />
+        <option value="$PROJECT_DIR$/Views/Matches/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Pages/Squad/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Models/Player.cs" />
+        <option value="$PROJECT_DIR$/Models/Scorer.c.cs" />
+        <option value="$PROJECT_DIR$/Models/Season.cs" />
+        <option value="$PROJECT_DIR$/ViewModels/ScorerViewModel.cs" />
+        <option value="$PROJECT_DIR$/Views/OverView/GetTopScorer.cshtml" />
+        <option value="$PROJECT_DIR$/Views/OverView/SelectedTeamResources.cshtml" />
+        <option value="$PROJECT_DIR$/ViewModels/SelectedTeamViewModel.cs" />
+        <option value="$PROJECT_DIR$/Models/Scorer.cs" />
+        <option value="$PROJECT_DIR$/Models/ScorerStandings.cs" />
+        <option value="$PROJECT_DIR$/Views/Squad/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Models/Match.cs" />
+        <option value="$PROJECT_DIR$/Controllers/SquadController.cs" />
+        <option value="$PROJECT_DIR$/Views/OverView/SelectedTeam.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/OverViewController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/MyTeamController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/MatchesController.cs" />
         <option value="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/OverView/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1ShuQrxt9XbwXCdBVvnlFuSnptC" />
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlite&#10;sqlserver" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;sqlite" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OwlCarousel2-2.3.4" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,6 +464,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -170,6 +488,10 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.MyTeam" />
+      <item itemvalue=".NET Launch Settings Profile.MyTeam: IIS Express" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -183,6 +505,28 @@
       <updated>1572028136005</updated>
       <workItem from="1572028138170" duration="5926000" />
       <workItem from="1572077427291" duration="20061000" />
+      <workItem from="1573419691400" duration="201000" />
+      <workItem from="1573450070171" duration="48000" />
+      <workItem from="1573450157563" duration="2615000" />
+      <workItem from="1573466023523" duration="12567000" />
+      <workItem from="1573586486693" duration="3480000" />
+      <workItem from="1573644793845" duration="7498000" />
+      <workItem from="1573809227645" duration="6143000" />
+      <workItem from="1573832647832" duration="3992000" />
+      <workItem from="1573838383202" duration="3182000" />
+      <workItem from="1573969354804" duration="1708000" />
+      <workItem from="1573982340547" duration="12970000" />
+      <workItem from="1574013176481" duration="984000" />
+      <workItem from="1574062500153" duration="500000" />
+      <workItem from="1574244574907" duration="4196000" />
+      <workItem from="1574951060877" duration="103000" />
+      <workItem from="1574951197022" duration="137000" />
+      <workItem from="1574951438538" duration="31000" />
+      <workItem from="1574951576386" duration="178000" />
+      <workItem from="1574958445119" duration="752000" />
+      <workItem from="1574959734176" duration="119000" />
+      <workItem from="1574972043401" duration="881000" />
+      <workItem from="1574973712284" duration="628000" />
     </task>
     <servers />
   </component>
@@ -191,8 +535,23 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -206,7 +565,9 @@
     <reveal-manager>
       <revealed-members>
         <RevealItemInfo typeName="System.Security.Claims.ClaimsIdentity" fieldName="AuthenticationType" />
+        <RevealItemInfo typeName="MyTeam.Models.CompetitionStandings" fieldName="Competition" />
         <RevealItemInfo typeName="System.Security.Claims.ClaimsIdentity" fieldName="_authenticationType" />
+        <RevealItemInfo typeName="MyTeam.ViewModels.OverViewModel" fieldName="CompetitionStandings" />
       </revealed-members>
     </reveal-manager>
   </component>

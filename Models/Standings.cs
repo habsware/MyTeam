@@ -9,7 +9,7 @@ namespace MyTeam.Models
         public string Stage { get; set; }
         public string Type{ get; set; }
         public string Group{ get; set; }
-        public List<TableItem> TableItems{ get; set; }
+        public List<TableItem> Table{ get; set; }
         public DateTime LastUpdated { get; set; }
     }
 }

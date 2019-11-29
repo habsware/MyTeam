@@ -1,5 +1,77 @@
-﻿@model MyTeam.Models.Team
+﻿@model MyTeam.ViewModels.OverViewModel
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
 
-<div class="text-center">
-   <img src="@Model.CrestUrl" alt=""/>
+<div>
+    <a style="color: goldenrod"><img src="@Model.MyTeam.CrestUrl" alt="" style="width: 35px;height: 35px"/> Welcome To @Model.MyTeam.Name's Overview</a>
 </div>
+<br/>
+<h3 style="color: darkgoldenrod">News</h3>
+<div class="owl-carousel">
+    @foreach (var news in Model.News)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@news.ImgSrc" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@news.Title</h5>
+                <a href="@news.Link" class="btn btn-primary">Read More</a>
+                  <p class="card-text"><small class="text-muted">Sky Sport</small></p>
+            </div>
+        </div>
+    }
+   
+</div>
+
+<h3 style="color: darkgoldenrod">Standings</h3>
+@foreach (var competitionStanding in Model.CompetitionStandings)
+{
+    <h5>@competitionStanding.Competition.Name</h5>
+    <table class="display table table-striped table-bordered table-hover" style="width:100%">
+        <thead>
+        <tr>
+            <th></th>
+            <th>Team</th>
+            <th>Pts</th>
+            <th>P</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var tableItem in competitionStanding.Standings.First(s => s.Table.Any(t => t.Team.Id == Model.MyTeam.Id)).Table)
+        {
+            <tr>
+                <td>@tableItem.Position</td>
+                <td>
+                    <img src="@tableItem.Team.CrestUrl" alt="" style="width: 30px;height: 30px"/>
+                    @Html.ActionLink(tableItem.Team.Name, "SelectedTeam", new {id = tableItem.Team.Id}, new {style = "color:#000000"})
+                </td>
+                <td>@tableItem.Points</td>
+                <td>@tableItem.PlayedGames</td>
+                <td>@tableItem.Won</td>
+                <td>@tableItem.Draw</td>
+                <td>@tableItem.Lost</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+<br/>
+<a href="@Url.Action("TopScorer", "OverView")" class="btn btn-primary">Competitions Top Scores</a>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+             $('table.display').DataTable({
+                "searching": false,
+                "info": false,
+                "paging" : false
+             });
+              $(".owl-carousel").owlCarousel();
+         });
+    </script>
+}

@@ -37,12 +37,11 @@ namespace MyTeam
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             
-            services.AddDbContext<MyTeamDbContext>(options =>
-                options.UseSqlServer(
+            services.AddEntityFrameworkSqlite().AddDbContext<MyTeamDbContext>(options =>
+                options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
-            
-            services.AddDbContext<MyTeamIdentityDbContext>(options =>
-                options.UseSqlServer(
+            services.AddEntityFrameworkSqlite().AddDbContext<MyTeamIdentityDbContext>(options =>
+                options.UseSqlite(
                     Configuration.GetConnectionString("MyTeamIdentityConnection")));
             
             services.AddDefaultIdentity<MyTeamUser>()
@@ -101,7 +100,7 @@ namespace MyTeam
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=OverView}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

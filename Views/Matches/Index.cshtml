@@ -19,7 +19,7 @@
     @foreach (var match in Model.Matches)
     {
         <tr>
-            <td>@match.UtcDate.ToString("dddd dd MMMM yyyy")</td>
+            <td>@match.UtcDate.ToString("yyyy-M-d dddd")</td>
             <td>@match.HomeTeam.Name</td>
             <td>@match.AwayTeam.Name</td>
             <td>@match.Competition.Name</td>

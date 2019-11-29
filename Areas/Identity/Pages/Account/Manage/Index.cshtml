@@ -30,7 +30,8 @@
                     <input asp-for="Input.DayOfBirth" class="form-control" />
                 </div>
                 <div>
-                   @Html.DropDownList("StudentGender", 
+                    <label asp-for="Input.MyTeamId"></label>
+                    @Html.DropDownListFor(model=>model.Input.MyTeamId, 
                        Html.GetEnumSelectList<MyTeamIdEnum>(), 
                        "Select Team",new { @class = "form-control" })
                 </div>

@@ -50,8 +50,7 @@ namespace MyTeam.Areas.Identity.Pages.Account.Manage
             [Required]
             [Display(Name = "My Team")]
             public MyTeamIdEnum MyTeamId { get; set; }
-        
-            [Required]
+            
             [EmailAddress]
             public string Email { get; set; }
 

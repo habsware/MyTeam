@@ -5,7 +5,6 @@
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.aspnetcdn.com_ajax_jquery.validate_1.17.0_jquery.validate.js" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.aspnetcdn.com_ajax_jquery.validation.unobtrusive_3.2.9_jquery.validate.unobtrusive.js" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_MyTeam.-969156502.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
@@ -37,22 +36,26 @@
         </e>
       </e>
       <e p="Controllers" t="Include">
-        <e p="HomeController.cs" t="Include" />
         <e p="MatchesController.cs" t="Include" />
+        <e p="MyTeamController.cs" t="Include" />
+        <e p="OverViewController.cs" t="Include" />
+        <e p="SquadController.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
-        <e p="20191026124305_CreateIdentitySchema.Designer.cs" t="Include" />
-        <e p="20191026124305_CreateIdentitySchema.cs" t="Include" />
-        <e p="20191026164132_AddedCustomIdentity.Designer.cs" t="Include" />
-        <e p="20191026164132_AddedCustomIdentity.cs" t="Include" />
+        <e p="20191111054738_InitIdentityDb.Designer.cs" t="Include" />
+        <e p="20191111054738_InitIdentityDb.cs" t="Include" />
         <e p="MyTeamIdentityDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="Competition.cs" t="Include" />
+        <e p="CompetitionStandings.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="Match.cs" t="Include" />
         <e p="MyTeamDbContext.cs" t="Include" />
+        <e p="News.cs" t="Include" />
         <e p="Player.cs" t="Include" />
+        <e p="ScorerStandings.cs" t="Include" />
+        <e p="Season.cs" t="Include" />
         <e p="Standings.cs" t="Include" />
         <e p="TableItem.cs" t="Include" />
         <e p="Team.cs" t="Include" />
@@ -60,6 +63,7 @@
       </e>
       <e p="MyTeam.csproj" t="IncludeRecursive" />
       <e p="MyTeam.sln" t="IncludeFlat" />
+      <e p="MyTeamIdentity.db" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
@@ -68,16 +72,18 @@
       <e p="Startup.cs" t="Include" />
       <e p="ViewModels" t="Include">
         <e p="MatchesViewModel.cs" t="Include" />
-        <e p="TeamViewModel.cs" t="Include" />
+        <e p="OverViewModel.cs" t="Include" />
+        <e p="ScorerViewModel.cs" t="Include" />
+        <e p="SelectedTeamViewModel.cs" t="Include" />
       </e>
       <e p="Views" t="Include">
-        <e p="Home" t="Include">
-          <e p="Index.cshtml" t="Include" />
-          <e p="Privacy.cshtml" t="Include" />
-          <e p="UserTeam.cshtml" t="Include" />
-        </e>
         <e p="Matches" t="Include">
           <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="OverView" t="Include">
+          <e p="Index.cshtml" t="Include" />
+          <e p="SelectedTeam.cshtml" t="Include" />
+          <e p="TopScorer.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">
           <e p="Error.cshtml" t="Include" />
@@ -85,6 +91,9 @@
           <e p="_Layout.cshtml" t="Include" />
           <e p="_LoginPartial.cshtml" t="Include" />
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+        </e>
+        <e p="Squad" t="Include">
+          <e p="Index.cshtml" t="Include" />
         </e>
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
@@ -146,6 +155,265 @@
               <e p="jquery.dataTables.min.js" t="Include" />
             </e>
           </e>
+          <e p="OwlCarousel2-2.3.4" t="Include">
+            <e p=".gitattributes" t="Include" />
+            <e p=".gitignore" t="Include" />
+            <e p=".travis.yml" t="Include" />
+            <e p="CONTRIBUTING.md" t="Include" />
+            <e p="Gruntfile.js" t="Include" />
+            <e p="ISSUE_TEMPLATE.md" t="Include" />
+            <e p="LICENSE" t="Include" />
+            <e p="README.md" t="Include" />
+            <e p="ROADMAP.md" t="Include" />
+            <e p="_config.json" t="Include" />
+            <e p="bower.json" t="Include" />
+            <e p="dist" t="Include">
+              <e p="LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+              <e p="assets" t="Include">
+                <e p="ajax-loader.gif" t="Include" />
+                <e p="owl.carousel.css" t="Include" />
+                <e p="owl.carousel.min.css" t="Include" />
+                <e p="owl.theme.default.css" t="Include" />
+                <e p="owl.theme.default.min.css" t="Include" />
+                <e p="owl.theme.green.css" t="Include" />
+                <e p="owl.theme.green.min.css" t="Include" />
+                <e p="owl.video.play.png" t="Include" />
+              </e>
+              <e p="owl.carousel.js" t="Include" />
+              <e p="owl.carousel.min.js" t="Include" />
+            </e>
+            <e p="docs" t="Include">
+              <e p="assets" t="Include">
+                <e p="css" t="Include">
+                  <e p="animate.css" t="Include" />
+                  <e p="docs.theme.min.css" t="Include" />
+                </e>
+                <e p="img" t="Include">
+                  <e p="bird_blue_32.png" t="Include" />
+                  <e p="download.png" t="Include" />
+                  <e p="feature-drag.png" t="Include" />
+                  <e p="feature-modern.png" t="Include" />
+                  <e p="feature-module.png" t="Include" />
+                  <e p="feature-options.png" t="Include" />
+                  <e p="feature-responsive.png" t="Include" />
+                  <e p="feature-zombie.png" t="Include" />
+                  <e p="owl-logo.png" t="Include" />
+                  <e p="twitter_25.png" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="app.js" t="Include" />
+                  <e p="foundation.min.js" t="Include" />
+                </e>
+                <e p="owlcarousel" t="Include">
+                  <e p="README.md" t="Include" />
+                  <e p="assets" t="Include">
+                    <e p="ajax-loader.gif" t="Include" />
+                    <e p="owl.carousel.css" t="Include" />
+                    <e p="owl.carousel.min.css" t="Include" />
+                    <e p="owl.theme.default.css" t="Include" />
+                    <e p="owl.theme.default.min.css" t="Include" />
+                    <e p="owl.theme.green.css" t="Include" />
+                    <e p="owl.theme.green.min.css" t="Include" />
+                    <e p="owl.video.play.png" t="Include" />
+                  </e>
+                  <e p="owl.carousel.js" t="Include" />
+                  <e p="owl.carousel.min.js" t="Include" />
+                </e>
+                <e p="vendors" t="Include">
+                  <e p="foundation.min.js" t="Include" />
+                  <e p="highlight.js" t="Include" />
+                  <e p="jquery.min.js" t="Include" />
+                  <e p="jquery.min.map" t="Include" />
+                  <e p="jquery.mousewheel.min.js" t="Include" />
+                </e>
+              </e>
+              <e p="demos" t="Include">
+                <e p="animate.html" t="Include" />
+                <e p="autoheight.html" t="Include" />
+                <e p="autoplay.html" t="Include" />
+                <e p="autowidth.html" t="Include" />
+                <e p="basic.html" t="Include" />
+                <e p="center.html" t="Include" />
+                <e p="demos.html" t="Include" />
+                <e p="events.html" t="Include" />
+                <e p="lazyLoad.html" t="Include" />
+                <e p="merge.html" t="Include" />
+                <e p="mousewheel.html" t="Include" />
+                <e p="responsive.html" t="Include" />
+                <e p="rtl.html" t="Include" />
+                <e p="stagepadding.html" t="Include" />
+                <e p="test.html" t="Include" />
+                <e p="urlhashnav.html" t="Include" />
+                <e p="video.html" t="Include" />
+              </e>
+              <e p="docs" t="Include">
+                <e p="api-classes.html" t="Include" />
+                <e p="api-events.html" t="Include" />
+                <e p="api-options.html" t="Include" />
+                <e p="dev-buildin-plugins.html" t="Include" />
+                <e p="dev-external.html" t="Include" />
+                <e p="dev-plugin-api.html" t="Include" />
+                <e p="dev-styles.html" t="Include" />
+                <e p="started-faq.html" t="Include" />
+                <e p="started-installation.html" t="Include" />
+                <e p="started-welcome.html" t="Include" />
+                <e p="support-changelog.html" t="Include" />
+                <e p="support-contact.html" t="Include" />
+                <e p="support-contributing.html" t="Include" />
+              </e>
+              <e p="index.html" t="Include" />
+            </e>
+            <e p="docs_src" t="Include">
+              <e p="assets" t="Include">
+                <e p="css" t="Include">
+                  <e p="animate.css" t="Include" />
+                </e>
+                <e p="img" t="Include">
+                  <e p="bird_blue_32.png" t="Include" />
+                  <e p="download.png" t="Include" />
+                  <e p="feature-drag.png" t="Include" />
+                  <e p="feature-modern.png" t="Include" />
+                  <e p="feature-module.png" t="Include" />
+                  <e p="feature-options.png" t="Include" />
+                  <e p="feature-responsive.png" t="Include" />
+                  <e p="feature-zombie.png" t="Include" />
+                  <e p="owl-logo.png" t="Include" />
+                  <e p="twitter_25.png" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="app.js" t="Include" />
+                  <e p="foundation.min.js" t="Include" />
+                </e>
+                <e p="scss" t="Include">
+                  <e p="_settings.scss" t="Include" />
+                  <e p="custom.scss" t="Include" />
+                  <e p="demos.scss" t="Include" />
+                  <e p="docs.scss" t="Include" />
+                  <e p="docs.theme.scss" t="Include" />
+                  <e p="highlight.scss" t="Include" />
+                </e>
+                <e p="vendors" t="Include">
+                  <e p="foundation.min.js" t="Include" />
+                  <e p="highlight.js" t="Include" />
+                  <e p="jquery.min.js" t="Include" />
+                  <e p="jquery.min.map" t="Include" />
+                  <e p="jquery.mousewheel.min.js" t="Include" />
+                </e>
+              </e>
+              <e p="data" t="Include">
+                <e p="classes.json" t="Include" />
+                <e p="events.json" t="Include" />
+                <e p="features.json" t="Include" />
+                <e p="options.json" t="Include" />
+              </e>
+              <e p="helpers" t="Include">
+                <e p="modulo.js" t="Include" />
+                <e p="test.js" t="Include" />
+              </e>
+              <e p="templates" t="Include">
+                <e p="layouts" t="Include">
+                  <e p="demos.hbs" t="Include" />
+                  <e p="docs.hbs" t="Include" />
+                  <e p="home.hbs" t="Include" />
+                </e>
+                <e p="pages" t="Include">
+                  <e p="demos" t="Include">
+                    <e p="animate.hbs" t="Include" />
+                    <e p="autoheight.hbs" t="Include" />
+                    <e p="autoplay.hbs" t="Include" />
+                    <e p="autowidth.hbs" t="Include" />
+                    <e p="basic.hbs" t="Include" />
+                    <e p="center.hbs" t="Include" />
+                    <e p="demos.hbs" t="Include" />
+                    <e p="events.hbs" t="Include" />
+                    <e p="lazyLoad.hbs" t="Include" />
+                    <e p="merge.hbs" t="Include" />
+                    <e p="mousewheel.hbs" t="Include" />
+                    <e p="responsive.hbs" t="Include" />
+                    <e p="rtl.hbs" t="Include" />
+                    <e p="stagepadding.hbs" t="Include" />
+                    <e p="test.hbs" t="Include" />
+                    <e p="urlhashnav.hbs" t="Include" />
+                    <e p="video.hbs" t="Include" />
+                  </e>
+                  <e p="docs" t="Include">
+                    <e p="api-classes.hbs" t="Include" />
+                    <e p="api-events.hbs" t="Include" />
+                    <e p="api-options.hbs" t="Include" />
+                    <e p="dev-buildin-plugins.hbs" t="Include" />
+                    <e p="dev-external.hbs" t="Include" />
+                    <e p="dev-plugin-api.hbs" t="Include" />
+                    <e p="dev-styles.hbs" t="Include" />
+                    <e p="started-faq.hbs" t="Include" />
+                    <e p="started-installation.hbs" t="Include" />
+                    <e p="started-welcome.hbs" t="Include" />
+                    <e p="support-changelog.hbs" t="Include" />
+                    <e p="support-contact.hbs" t="Include" />
+                    <e p="support-contributing.hbs" t="Include" />
+                  </e>
+                  <e p="index.hbs" t="Include" />
+                </e>
+                <e p="partials" t="Include">
+                  <e p="footer.hbs" t="Include" />
+                  <e p="head.hbs" t="Include" />
+                  <e p="header.hbs" t="Include" />
+                  <e p="home-carousel.hbs" t="Include" />
+                  <e p="home-features.hbs" t="Include" />
+                  <e p="home-hero.hbs" t="Include" />
+                  <e p="home-teaser-text.hbs" t="Include" />
+                  <e p="javascripts.hbs" t="Include" />
+                  <e p="releated-docs.hbs" t="Include" />
+                  <e p="sidenav-docs.hbs" t="Include" />
+                  <e p="title.hbs" t="Include" />
+                  <e p="vendors.hbs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="package-lock.json" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="src" t="Include">
+              <e p="img" t="Include">
+                <e p="ajax-loader.gif" t="Include" />
+                <e p="owl.video.play.png" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p=".jscsrc" t="Include" />
+                <e p=".jshintrc" t="Include" />
+                <e p="owl.animate.js" t="Include" />
+                <e p="owl.autoheight.js" t="Include" />
+                <e p="owl.autoplay.js" t="Include" />
+                <e p="owl.autorefresh.js" t="Include" />
+                <e p="owl.carousel.js" t="Include" />
+                <e p="owl.hash.js" t="Include" />
+                <e p="owl.lazyload.js" t="Include" />
+                <e p="owl.navigation.js" t="Include" />
+                <e p="owl.support.js" t="Include" />
+                <e p="owl.support.modernizr.js" t="Include" />
+                <e p="owl.video.js" t="Include" />
+              </e>
+              <e p="scss" t="Include">
+                <e p="_animate.scss" t="Include" />
+                <e p="_autoheight.scss" t="Include" />
+                <e p="_core.scss" t="Include" />
+                <e p="_lazyload.scss" t="Include" />
+                <e p="_theme.default.scss" t="Include" />
+                <e p="_theme.green.scss" t="Include" />
+                <e p="_theme.scss" t="Include" />
+                <e p="_video.scss" t="Include" />
+                <e p="owl.carousel.scss" t="Include" />
+                <e p="owl.theme.default.scss" t="Include" />
+                <e p="owl.theme.green.scss" t="Include" />
+              </e>
+            </e>
+            <e p="test" t="Include">
+              <e p="index.html" t="Include" />
+              <e p="unit" t="Include">
+                <e p="autoplay.js" t="Include" />
+                <e p="core.js" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="bootstrap" t="Include">
             <e p="LICENSE" t="Include" />
             <e p="dist" t="Include">
@@ -199,6 +467,9 @@
           </e>
         </e>
       </e>
+    </e>
+    <e p="c:\" t="Include">
+      <e p="MyTeamIdentity.db" t="Include" />
     </e>
   </component>
 </project>
