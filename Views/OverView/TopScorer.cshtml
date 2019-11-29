@@ -1,0 +1,31 @@
+@model MyTeam.ViewModels.ScorerViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h3 style="color: darkgoldenrod">Competitions Top Scores</h3>
+@foreach (var scorerStanding in Model.ScorerStandings)
+{
+    <h5>@scorerStanding.Competition.Name</h5>
+    <table class="display table table-striped table-bordered table-hover" style="width:60%">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Goals</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var tableItem in scorerStanding.Scorers)
+        {
+            <tr>
+                <td>@tableItem.Player.Name</td>
+                <td>@tableItem.Team.Name</td>
+                <td>@tableItem.NumberOfGoals</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
